@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "gtOm0hU80Xn099mD56YOR7hwTyAn3VGWitFTg7IlSQSlBx79bw525z1fuzk7/uUr/SlULRJ7o2WWxeg0I7eYCg==",
+  "success": true,
+  "projectFilePath": "/home/marufhasan/Documents/BootCamp_DesignPattern/Week3/BlogProject/BlogProject.csproj",
+  "expectedPackageFiles": [
+    "/home/marufhasan/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/home/marufhasan/.nuget/packages/minimalapis.extensions/0.11.0/minimalapis.extensions.0.11.0.nupkg.sha512",
+    "/home/marufhasan/.nuget/packages/minivalidation/0.8.0/minivalidation.0.8.0.nupkg.sha512"
+  ],
+  "logs": []
+}

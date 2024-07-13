@@ -1,0 +1,51 @@
+GET http://localhost:5057/posts
+
+###
+POST http://localhost:5057/posts
+Content-Type: application/json
+
+{
+    "Title": "Devin AI",
+    "Content" : "Would Devin be the end of Software Engineers",
+    "PostAuthorId":1
+}
+
+###
+GET http://localhost:5057/posts/3
+
+
+###
+GET http://localhost:5057/comments
+
+###
+POST http://localhost:5057/comments
+Content-Type: application/json
+
+{
+    "Comment" : "Why Software Engineering so Hard??"
+}
+
+
+###
+POST http://localhost:5057/posts/scores
+Content-Type: application/json
+
+{
+    "PostId":"6",
+    "PostAuthorId":"222",
+    "UserId": "3"
+}
+
+###
+
+POST http://localhost:5057/reviews/1
+Content-Type: application/json
+
+{
+    "ReviewTitle" : "Backend Code Review",
+    "Content" : "Talk is cheap.Show me the code",
+    "Rating" :5,
+    "Pros" : "No Pro",
+    "Cons" : "Your code is garbage",
+    "Author_FeedBack" : "Refactor"
+}

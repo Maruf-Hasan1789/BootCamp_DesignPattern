@@ -2,6 +2,8 @@
 using BlogProject.DTO;
 using BlogProject.Logger;
 using BlogProject.ScoringSystem;
+using BlogProject.Data;
+using BlogProject.Data.Assets;
 
 namespace BlogProject.Endpoints;
 
@@ -119,9 +121,10 @@ public static class BlogEndPoints
         }).WithParameterValidation();
 
 
-        app.MapGet("/videos",() =>{
-            
-            
+        app.MapGet("/videos", (VideoInfoDbReal videoInfoDbReal, VideoInfoContext dbContext)=> {
+            VideoInfoDbProxy videoInfoDbProxy = new(videoInfoDbReal);
+            var videoInfoList = videoInfoDbProxy.GetAllVideoInfos(dbContext);
+            return Results.Ok(videoInfoList);
         });
 
         return app;

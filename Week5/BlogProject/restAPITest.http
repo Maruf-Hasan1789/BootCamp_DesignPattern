@@ -49,3 +49,7 @@ Content-Type: application/json
     "Cons" : "Your code is garbage",
     "Author_FeedBack" : "Refactor"
 }
+
+
+###
+GET http://localhost:5057/videos

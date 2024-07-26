@@ -123,3 +123,13 @@ Log Entry : 12:47:49 AM Saturday, July 27, 2024
   :
   :CommentData { CommentId = 2, Comment = Why Software Engineering so Hard?? }
 -------------------------------
+
+Log Entry : 5:52:17 AM Saturday, July 27, 2024
+  :
+  :PostInformation { PostId = 1, Title = Devin AI, Content = Would Devin be the end of Software Engineers, PostAuthorId = 1 }
+-------------------------------
+
+Log Entry : 5:52:18 AM Saturday, July 27, 2024
+  :
+  :PostInformation { PostId = 2, Title = Devin AI, Content = Would Devin be the end of Software Engineers, PostAuthorId = 1 }
+-------------------------------

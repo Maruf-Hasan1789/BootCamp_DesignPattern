@@ -1,0 +1,69 @@
+GET http://localhost:5057/posts
+
+###
+POST http://localhost:5057/posts
+Content-Type: application/json
+
+{
+    "Title": "Devin AI",
+    "Content" : "Would Devin be the end of Software Engineers",
+    "PostAuthorId":1
+}
+
+###
+GET http://localhost:5057/posts/3
+
+
+###
+GET http://localhost:5057/comments
+
+###
+POST http://localhost:5057/comments
+Content-Type: application/json
+
+{
+    "Comment" : "Why Software Engineering so Hard??"
+}
+
+
+###
+POST http://localhost:5057/posts/scores
+Content-Type: application/json
+
+{
+    "PostId":"6",
+    "PostAuthorId":"222",
+    "UserId": "3"
+}
+
+###
+
+POST http://localhost:5057/reviews/1
+Content-Type: application/json
+
+{
+    "ReviewTitle" : "Backend Code Review",
+    "Content" : "Talk is cheap.Show me the code",
+    "Rating" :5,
+    "Pros" : "No Pro",
+    "Cons" : "Your code is garbage",
+    "Author_FeedBack" : "Refactor"
+}
+
+
+###
+GET http://localhost:5057/videos/v2
+
+###
+GET https://gist.githubusercontent.com/poudyalanil/ca84582cbeb4fc123a13290a586da925/raw/14a27bd0bcd0cd323b35ad79cf3b493dddf6216b/videos.json
+
+###
+GET http://localhost:5057/home/photos/v1
+
+
+###
+GET https://api.pexels.com/v1/photos/2014422
+Authorization: 1eCUtsJq1mx6Gw0WCXq3Y8imzQfCzdBU6kkDQoKE31YMmGN994YoOWq9
+
+###
+POST http://localhost:5057/payment/1789?paymentMethod=Paypal&accountId=1789
